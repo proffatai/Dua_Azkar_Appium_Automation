@@ -19,7 +19,7 @@
     <scope>test</scope>
 </dependency>
 
-  </dependencies>
+ </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>

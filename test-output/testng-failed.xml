@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Fatai.AppiumBasics">
+      <class name="baseClass.DA_baseClass">
         <methods>
           <include name="AppiumTest"/>
         </methods>
-      </class> <!-- Fatai.AppiumBasics -->
+      </class> <!-- baseClass.DA_baseClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
