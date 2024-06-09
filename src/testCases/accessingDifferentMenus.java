@@ -11,6 +11,9 @@ public class accessingDifferentMenus extends DA_baseClass {
 		public void AccessingMenus() throws InterruptedException {
 			HomeScreen HP = new HomeScreen(driver);
 			HP.clickDuaAfterAzkar();
-			WaitForTwoSeconds();
+			WaitForFiveSeconds();
+			goBack();
+			HP.clickDuaAfterAzkar();
+			WaitForFiveSeconds();
 		}
 	}

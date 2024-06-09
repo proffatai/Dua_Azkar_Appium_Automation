@@ -2,7 +2,6 @@ package pageObject;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
 //import baseClass.DA_baseClass;
 import io.appium.java_client.android.AndroidDriver;
