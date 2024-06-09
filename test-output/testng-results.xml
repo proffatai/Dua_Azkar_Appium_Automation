@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T23:01:44 WAT" name="Default suite" finished-at="2024-06-07T23:01:54 WAT" duration-ms="9594">
+  <suite started-at="2024-06-09T16:45:23 WAT" name="Default suite" finished-at="2024-06-09T16:45:35 WAT" duration-ms="12128">
     <groups>
     </groups>
-    <test started-at="2024-06-07T23:01:44 WAT" name="Default test" finished-at="2024-06-07T23:01:54 WAT" duration-ms="9594">
-      <class name="baseClass.DA_baseClass">
-        <test-method signature="AppiumTest()[pri:0, instance:baseClass.DA_baseClass@3e11f9e9]" started-at="2024-06-07T23:01:44 WAT" name="AppiumTest" finished-at="2024-06-07T23:01:54 WAT" duration-ms="9527" status="PASS">
+    <test started-at="2024-06-09T16:45:23 WAT" name="Default test" finished-at="2024-06-09T16:45:35 WAT" duration-ms="12128">
+      <class name="testCases.accessingDifferentMenus">
+        <test-method is-config="true" signature="AppiumSetup()[pri:0, instance:testCases.accessingDifferentMenus@5d534f5d]" started-at="2024-06-09T16:45:23 WAT" name="AppiumSetup" finished-at="2024-06-09T16:45:34 WAT" duration-ms="11000" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppiumTest -->
-      </class> <!-- baseClass.DA_baseClass -->
+        </test-method> <!-- AppiumSetup -->
+        <test-method signature="AccessingMenus()[pri:1, instance:testCases.accessingDifferentMenus@5d534f5d]" started-at="2024-06-09T16:45:34 WAT" name="AccessingMenus" finished-at="2024-06-09T16:45:34 WAT" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessingMenus -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.accessingDifferentMenus@5d534f5d]" started-at="2024-06-09T16:45:35 WAT" name="TearDown" finished-at="2024-06-09T16:45:35 WAT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.accessingDifferentMenus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

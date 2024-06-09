@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="baseClass.DA_baseClass">
+      <class name="testCases.accessingDifferentMenus">
         <methods>
-          <include name="AppiumTest"/>
+          <include name="AccessingMenus"/>
+          <include name="AppiumSetup"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- baseClass.DA_baseClass -->
+      </class> <!-- testCases.accessingDifferentMenus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
